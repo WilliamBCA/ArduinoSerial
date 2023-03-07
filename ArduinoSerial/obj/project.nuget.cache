@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "vUy63zq/52OAWg43SeDL3W08nqU4p+1dHA90AWGlo3NmM62EV3rkmNS3E4KRG5LvzLe1GusBUZZnIc/esofcFA==",
+  "success": true,
+  "projectFilePath": "/home/williamb/RiderProjects/ArduinoSerial/ArduinoSerial/ArduinoSerial.csproj",
+  "expectedPackageFiles": [
+    "/home/williamb/.nuget/packages/atksharp/3.24.24.38/atksharp.3.24.24.38.nupkg.sha512",
+    "/home/williamb/.nuget/packages/cairosharp/3.24.24.38/cairosharp.3.24.24.38.nupkg.sha512",
+    "/home/williamb/.nuget/packages/gdksharp/3.24.24.38/gdksharp.3.24.24.38.nupkg.sha512",
+    "/home/williamb/.nuget/packages/giosharp/3.24.24.38/giosharp.3.24.24.38.nupkg.sha512",
+    "/home/williamb/.nuget/packages/glibsharp/3.24.24.38/glibsharp.3.24.24.38.nupkg.sha512",
+    "/home/williamb/.nuget/packages/google.apis/1.60.0/google.apis.1.60.0.nupkg.sha512",
+    "/home/williamb/.nuget/packages/google.apis.auth/1.60.0/google.apis.auth.1.60.0.nupkg.sha512",
+    "/home/williamb/.nuget/packages/google.apis.core/1.60.0/google.apis.core.1.60.0.nupkg.sha512",
+    "/home/williamb/.nuget/packages/google.apis.sheets.v4/1.60.0.2979/google.apis.sheets.v4.1.60.0.2979.nupkg.sha512",
+    "/home/williamb/.nuget/packages/gtksharp/3.24.24.38/gtksharp.3.24.24.38.nupkg.sha512",
+    "/home/williamb/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",
+    "/home/williamb/.nuget/packages/pangosharp/3.24.24.38/pangosharp.3.24.24.38.nupkg.sha512",
+    "/home/williamb/.nuget/packages/runtime.linux-arm.runtime.native.system.io.ports/8.0.0-preview.1.23110.8/runtime.linux-arm.runtime.native.system.io.ports.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/home/williamb/.nuget/packages/runtime.linux-arm64.runtime.native.system.io.ports/8.0.0-preview.1.23110.8/runtime.linux-arm64.runtime.native.system.io.ports.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/home/williamb/.nuget/packages/runtime.linux-x64.runtime.native.system.io.ports/8.0.0-preview.1.23110.8/runtime.linux-x64.runtime.native.system.io.ports.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/home/williamb/.nuget/packages/runtime.native.system.io.ports/8.0.0-preview.1.23110.8/runtime.native.system.io.ports.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/home/williamb/.nuget/packages/runtime.osx-arm64.runtime.native.system.io.ports/8.0.0-preview.1.23110.8/runtime.osx-arm64.runtime.native.system.io.ports.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/home/williamb/.nuget/packages/runtime.osx-x64.runtime.native.system.io.ports/8.0.0-preview.1.23110.8/runtime.osx-x64.runtime.native.system.io.ports.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/home/williamb/.nuget/packages/spectre.console/0.46.1-preview.0.13/spectre.console.0.46.1-preview.0.13.nupkg.sha512",
+    "/home/williamb/.nuget/packages/spectre.io/0.11.0/spectre.io.0.11.0.nupkg.sha512",
+    "/home/williamb/.nuget/packages/system.io.ports/8.0.0-preview.1.23110.8/system.io.ports.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "/home/williamb/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/home/williamb/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.2/microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/williamb/RiderProjects/ArduinoSerial/ArduinoSerial/ArduinoSerial.csproj": {}
+  },
+  "projects": {
+    "/home/williamb/RiderProjects/ArduinoSerial/ArduinoSerial/ArduinoSerial.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/williamb/RiderProjects/ArduinoSerial/ArduinoSerial/ArduinoSerial.csproj",
+        "projectName": "ArduinoSerial",
+        "projectPath": "/home/williamb/RiderProjects/ArduinoSerial/ArduinoSerial/ArduinoSerial.csproj",
+        "packagesPath": "/home/williamb/.nuget/packages/",
+        "outputPath": "/home/williamb/RiderProjects/ArduinoSerial/ArduinoSerial/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/williamb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Google.Apis": {
+              "target": "Package",
+              "version": "[1.60.0, )"
+            },
+            "Google.Apis.Sheets.v4": {
+              "target": "Package",
+              "version": "[1.60.0.2979, )"
+            },
+            "GtkSharp": {
+              "target": "Package",
+              "version": "[3.24.24.38, )"
+            },
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.46.1-preview.0.13, )"
+            },
+            "Spectre.IO": {
+              "target": "Package",
+              "version": "[0.11.0, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23110.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.2, 7.0.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
