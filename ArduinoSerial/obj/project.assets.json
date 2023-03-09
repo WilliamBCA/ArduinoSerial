@@ -295,6 +295,264 @@
           "lib/netcoreapp2.1/_._": {}
         }
       }
+    },
+    "net7.0/osx-x64": {
+      "AtkSharp/3.24.24.38": {
+        "type": "package",
+        "dependencies": {
+          "GLibSharp": "3.24.24.38"
+        },
+        "compile": {
+          "lib/net6.0/AtkSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/AtkSharp.dll": {}
+        }
+      },
+      "CairoSharp/3.24.24.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CairoSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/CairoSharp.dll": {}
+        }
+      },
+      "GdkSharp/3.24.24.38": {
+        "type": "package",
+        "dependencies": {
+          "CairoSharp": "3.24.24.38",
+          "GLibSharp": "3.24.24.38",
+          "GioSharp": "3.24.24.38",
+          "PangoSharp": "3.24.24.38"
+        },
+        "compile": {
+          "lib/net6.0/GdkSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/GdkSharp.dll": {}
+        }
+      },
+      "GioSharp/3.24.24.38": {
+        "type": "package",
+        "dependencies": {
+          "GLibSharp": "3.24.24.38"
+        },
+        "compile": {
+          "lib/net6.0/GioSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/GioSharp.dll": {}
+        }
+      },
+      "GLibSharp/3.24.24.38": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/GLibSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/GLibSharp.dll": {}
+        }
+      },
+      "Google.Apis/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Core": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Core/1.60.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Google.Apis.Sheets.v4/1.60.0.2979": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.60.0",
+          "Google.Apis.Auth": "1.60.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Sheets.v4.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Sheets.v4.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "GtkSharp/3.24.24.38": {
+        "type": "package",
+        "dependencies": {
+          "AtkSharp": "3.24.24.38",
+          "CairoSharp": "3.24.24.38",
+          "GLibSharp": "3.24.24.38",
+          "GdkSharp": "3.24.24.38",
+          "GioSharp": "3.24.24.38",
+          "PangoSharp": "3.24.24.38"
+        },
+        "compile": {
+          "lib/net6.0/GtkSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/GtkSharp.dll": {}
+        },
+        "build": {
+          "build/GtkSharp.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "PangoSharp/3.24.24.38": {
+        "type": "package",
+        "dependencies": {
+          "CairoSharp": "3.24.24.38",
+          "GLibSharp": "3.24.24.38"
+        },
+        "compile": {
+          "lib/net6.0/PangoSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/PangoSharp.dll": {}
+        }
+      },
+      "runtime.linux-arm.runtime.native.System.IO.Ports/8.0.0-preview.1.23110.8": {
+        "type": "package"
+      },
+      "runtime.linux-arm64.runtime.native.System.IO.Ports/8.0.0-preview.1.23110.8": {
+        "type": "package"
+      },
+      "runtime.linux-x64.runtime.native.System.IO.Ports/8.0.0-preview.1.23110.8": {
+        "type": "package"
+      },
+      "runtime.native.System.IO.Ports/8.0.0-preview.1.23110.8": {
+        "type": "package",
+        "dependencies": {
+          "runtime.linux-arm.runtime.native.System.IO.Ports": "8.0.0-preview.1.23110.8",
+          "runtime.linux-arm64.runtime.native.System.IO.Ports": "8.0.0-preview.1.23110.8",
+          "runtime.linux-x64.runtime.native.System.IO.Ports": "8.0.0-preview.1.23110.8",
+          "runtime.osx-arm64.runtime.native.System.IO.Ports": "8.0.0-preview.1.23110.8",
+          "runtime.osx-x64.runtime.native.System.IO.Ports": "8.0.0-preview.1.23110.8"
+        }
+      },
+      "runtime.osx-arm64.runtime.native.System.IO.Ports/8.0.0-preview.1.23110.8": {
+        "type": "package"
+      },
+      "runtime.osx-x64.runtime.native.System.IO.Ports/8.0.0-preview.1.23110.8": {
+        "type": "package",
+        "native": {
+          "runtimes/osx-x64/native/libSystem.IO.Ports.Native.dylib": {}
+        }
+      },
+      "Spectre.Console/0.46.1-preview.0.13": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "compile": {
+          "lib/net7.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Spectre.IO/0.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Spectre.IO.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Spectre.IO.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.IO.Ports/8.0.0-preview.1.23110.8": {
+        "type": "package",
+        "dependencies": {
+          "runtime.native.System.IO.Ports": "8.0.0-preview.1.23110.8"
+        },
+        "compile": {
+          "lib/net7.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/unix/lib/net7.0/System.IO.Ports.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Memory/4.5.5": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -798,6 +1056,18 @@
           {
             "name": "Microsoft.AspNetCore.App.Ref",
             "version": "[7.0.2, 7.0.2]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.osx-x64",
+            "version": "[7.0.2, 7.0.2]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[7.0.2, 7.0.2]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.osx-x64",
+            "version": "[7.0.2, 7.0.2]"
           }
         ],
         "frameworkReferences": {
@@ -806,6 +1076,11 @@
           }
         },
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "osx-x64": {
+        "#import": []
       }
     }
   }

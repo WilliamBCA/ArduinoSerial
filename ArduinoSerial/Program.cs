@@ -41,6 +41,7 @@ public class ArduinoListener
     {
         string line = _serialPort.ReadLine();
         var splitLine = line.Split(';');
+        if (splitLine.Length < 3) return;
         _sheetsHelper.AddRowToSheetAsync(splitLine);
     }
 

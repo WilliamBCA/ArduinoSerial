@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vUy63zq/52OAWg43SeDL3W08nqU4p+1dHA90AWGlo3NmM62EV3rkmNS3E4KRG5LvzLe1GusBUZZnIc/esofcFA==",
+  "dgSpecHash": "In3ONXzIMNc38FYGCYAxAIB0nz2F8JFjY5QiitX569bMMSnOvxu/K+UJkJL2i0V8gCE1BnMN5kX0X545AzliRA==",
   "success": true,
   "projectFilePath": "/home/williamb/RiderProjects/ArduinoSerial/ArduinoSerial/ArduinoSerial.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,10 @@
     "/home/williamb/.nuget/packages/spectre.io/0.11.0/spectre.io.0.11.0.nupkg.sha512",
     "/home/williamb/.nuget/packages/system.io.ports/8.0.0-preview.1.23110.8/system.io.ports.8.0.0-preview.1.23110.8.nupkg.sha512",
     "/home/williamb/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
-    "/home/williamb/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.2/microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512"
+    "/home/williamb/.nuget/packages/microsoft.netcore.app.runtime.osx-x64/7.0.2/microsoft.netcore.app.runtime.osx-x64.7.0.2.nupkg.sha512",
+    "/home/williamb/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.2/microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512",
+    "/home/williamb/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-x64/7.0.2/microsoft.aspnetcore.app.runtime.osx-x64.7.0.2.nupkg.sha512",
+    "/home/williamb/.nuget/packages/microsoft.netcore.app.host.osx-x64/7.0.2/microsoft.netcore.app.host.osx-x64.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }
